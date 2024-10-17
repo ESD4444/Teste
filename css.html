@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 3</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="favicon-css.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="css">
+        <h1>CSS 3</h1>
+    </header>
+    <nav class="css">
+        <a href="index.html" class="css">HTML 5</a>
+        <a href="css.html" class="css" id="marca-pagina-css">CSS 3</a>
+        <a href="js.html" class="css">JavaScript</a>
+    </nav>
+    <p id="subtitulo">
+        Nesta página falaremos um pouco sobre o que é o CSS 3 e suas principais funções.
+    </p>
+    <section class="section-responsiva">
+        <article class="article-responsivo">
+            <h2 class="titulo-do-item">O que é?</h2>
+            <p>
+                Cascading Style Sheets (Folhas de Estilo em Cascata) ou simplesmente CSS, é uma linguagem de marcação
+                utilizada para estilizar páginas web feitas em HTML, você de pode conferir mais informações clicando <a
+                    href="https://pt.wikipedia.org/wiki/CSS3" target="_blank">aqui</a>.
+            </p>
+        </article>
+        <article class="article-responsivo">
+            <h2 class="titulo-do-item">Principais comandos do CSS 3</h2>
+            <ul>
+                <li>background_color: muda a <span class="nomes-das-tags">cor de fundo</span></strong> da página;</li>
+                <li>color: muda a <span class="nomes-das-tags">cor de um texto</span></strong>;</li>
+                <li>text_align: muda o <span class="nomes-das-tags">alinhamento do texto</span>;</li>
+                <li>padding: muda a <span class="nomes-das-tags">margem de um elemento</span></strong>;</li>
+                <li>border: adiciona <span class="nomes-das-tags">bordar a um elemento</span>;</li>
+            </ul>
+        </article>
+        <article class="article-responsivo">
+            <h2 class="titulo-do-item">Seletores e suas hierarquias</h2>
+            <p class="paragrafo-de-uma-linha">
+                Os seletores estão listados em ordem de prioridade:
+            </p>
+            <ol>
+                <li>Seletor de ID: interage com um <span class="nomes-das-tags">único elemento</span>;</li>
+                <li>Seletor de classe: interage com todos os elementos que <span class="nomes-das-tags">possuem esta
+                        classe</span>;</li>
+                <li>Seletor de tag: interage com <span class="nomes-das-tags">todas as tags</span> especificadas no
+                    seletor;
+                </li>
+                <li>Seletor universal: interage com <span class="nomes-das-tags">todos</span> elementos da página;</li>
+            </ol>
+            <p>
+                Os seletores são bem úteis para estilizar de forma mais eficiente os elementos de uma página, sendo
+                extremamente importantes em qualquer site, permitindo a estilização de diversos elementos sem muito
+                trabalho.
+            </p>
+        </article>
+        <article class="article-responsivo">
+            <h2 class="titulo-do-item">Boas práticas</h2>
+            <p>
+                É importante que seja criado um arquivo externo .css para que o estilo fique separado do HTML e seja
+                reaproveitado em outra página. Para modificações específicas em cada página pode-se utilizar a tag style
+                e
+                em casos específicos de uma tag, caso não seja possível utilizar o seletor de id ou classe, utilizar o
+                style
+                localmente.
+            </p>
+        </article>
+        <article class="article-responsivo" id="article-exemplo-flex">
+            <h2 class="titulo-do-item">Flex Box</h2>
+            <p>
+                O Flex Box é um recurso importante para a organização dos objetos, ele é utilizado para organizar
+                elementos
+                dentro de uma div. Estão listados abaixo algumas variações do parâmetro justify-content e suas
+                representações gráficas:
+            </p>
+            <ul>
+                <li>
+                    Flex-start:
+                    <div class="exemplo-flex" id="flex-start">
+                        <div class="circulo"></div>
+                        <div class="circulo"></div>
+                        <div class="circulo"></div>
+                    </div>
+                </li>
+                <li>
+                    Flex-end:
+                    <div class="exemplo-flex" id="flex-end">
+                        <div class="circulo"></div>
+                        <div class="circulo"></div>
+                        <div class="circulo"></div>
+                    </div>
+                </li>
+                <li>
+                    Space-around:
+                    <div class="exemplo-flex" id="space-around">
+                        <div class="circulo"></div>
+                        <div class="circulo"></div>
+                        <div class="circulo"></div>
+                    </div>
+                </li>
+            </ul>
+        </article>
+    </section>
+</body>
+
+</html>
