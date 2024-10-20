@@ -199,7 +199,8 @@ li {
     }
 
     .section-responsiva-css,
-    .section-responsiva-js {
+    .section-responsiva-js,
+    .section-responsiva-html {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -315,7 +316,7 @@ td {
 }
 
 #imagem-do-html {
-    width: 50%;
+    width: 20%;
     padding-top: 3%;
     padding-bottom: 3%;
     display: block;
