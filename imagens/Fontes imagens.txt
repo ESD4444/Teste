@@ -1,0 +1,3 @@
+Logo CSS3: https://pt.m.wikipedia.org/wiki/Ficheiro:CSS3_logo.svg
+Logo HTML5: https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg
+Logo JS: https://www.pinterest.com/pin/javascript-logo-js--885027764250592646/

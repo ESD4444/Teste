@@ -21,8 +21,8 @@
     <p id="subtitulo">
         Nesta página falaremos um pouco sobre o que é o CSS 3 e suas principais funções.
     </p>
-    <section class="section-responsiva">
-        <article class="article-responsivo">
+    <section class="section-responsiva-css">
+        <article id="oque-e-css" class="article-responsivo">
             <h2 class="titulo-do-item">O que é?</h2>
             <p>
                 Cascading Style Sheets (Folhas de Estilo em Cascata) ou simplesmente CSS, é uma linguagem de marcação
@@ -30,29 +30,17 @@
                     href="https://pt.wikipedia.org/wiki/CSS3" target="_blank">aqui</a>.
             </p>
         </article>
-        <article class="article-responsivo">
-            <h2 class="titulo-do-item">Principais comandos do CSS 3</h2>
-            <ul>
-                <li>background_color: muda a <span class="nomes-das-tags">cor de fundo</span></strong> da página;</li>
-                <li>color: muda a <span class="nomes-das-tags">cor de um texto</span></strong>;</li>
-                <li>text_align: muda o <span class="nomes-das-tags">alinhamento do texto</span>;</li>
-                <li>padding: muda a <span class="nomes-das-tags">margem de um elemento</span></strong>;</li>
-                <li>border: adiciona <span class="nomes-das-tags">bordar a um elemento</span>;</li>
-            </ul>
-        </article>
-        <article class="article-responsivo">
+        <article id="seletores-css" class="article-responsivo">
             <h2 class="titulo-do-item">Seletores e suas hierarquias</h2>
             <p class="paragrafo-de-uma-linha">
                 Os seletores estão listados em ordem de prioridade:
             </p>
             <ol>
-                <li>Seletor de ID: interage com um <span class="nomes-das-tags">único elemento</span>;</li>
-                <li>Seletor de classe: interage com todos os elementos que <span class="nomes-das-tags">possuem esta
-                        classe</span>;</li>
-                <li>Seletor de tag: interage com <span class="nomes-das-tags">todas as tags</span> especificadas no
-                    seletor;
+                <li><span class="destacar">Seletor de ID</span>: interage com um único elemento;</li>
+                <li><span class="destacar">Seletor de classe</span>: interage com todos os elementos que possuem esta classe;</li>
+                <li><span class="destacar">Seletor de tag</span>: interage com todas as tags especificadas no seletor;
                 </li>
-                <li>Seletor universal: interage com <span class="nomes-das-tags">todos</span> elementos da página;</li>
+                <li><span class="destacar">Seletor universal</span>: interage com todos elementos da página;</li>
             </ol>
             <p>
                 Os seletores são bem úteis para estilizar de forma mais eficiente os elementos de uma página, sendo
@@ -60,7 +48,7 @@
                 trabalho.
             </p>
         </article>
-        <article class="article-responsivo">
+        <article id="boas-praticas-css" class="article-responsivo">
             <h2 class="titulo-do-item">Boas práticas</h2>
             <p>
                 É importante que seja criado um arquivo externo .css para que o estilo fique separado do HTML e seja
@@ -71,6 +59,16 @@
                 localmente.
             </p>
         </article>
+        <article id="principais-comandos-css" class="article-responsivo">
+            <h2 class="titulo-do-item">Principais comandos do CSS 3</h2>
+            <ul>
+                <li><span class="destacar">background_color</span>: muda a cor de fundo da página;</li>
+                <li><span class="destacar">color</span>: muda a cor de um texto;</li>
+                <li><span class="destacar">text_align</span>: muda o alinhamento do texto;</li>
+                <li><span class="destacar">padding</span>: muda a margem de um elemento;</li>
+                <li><span class="destacar">border</span>: adiciona bordar a um elemento;</li>
+            </ul>
+        </article>
         <article class="article-responsivo" id="article-exemplo-flex">
             <h2 class="titulo-do-item">Flex Box</h2>
             <p>
@@ -79,32 +77,32 @@
                 dentro de uma div. Estão listados abaixo algumas variações do parâmetro justify-content e suas
                 representações gráficas:
             </p>
-            <ul>
-                <li>
-                    Flex-start:
+            <div id="container-exemplos-flex">
+                <div class="containers-exemplos-flex">
+                    <h3>Flex-start:</h3>
                     <div class="exemplo-flex" id="flex-start">
                         <div class="circulo"></div>
                         <div class="circulo"></div>
                         <div class="circulo"></div>
                     </div>
-                </li>
-                <li>
-                    Flex-end:
+                </div>
+                <div class="containers-exemplos-flex">
+                    <h3>Flex-end:</h3>
                     <div class="exemplo-flex" id="flex-end">
                         <div class="circulo"></div>
                         <div class="circulo"></div>
                         <div class="circulo"></div>
                     </div>
-                </li>
-                <li>
-                    Space-around:
+                </div>
+                <div class="containers-exemplos-flex">
+                    <h3>Space-around:</h3>
                     <div class="exemplo-flex" id="space-around">
                         <div class="circulo"></div>
                         <div class="circulo"></div>
                         <div class="circulo"></div>
                     </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </article>
     </section>
 </body>
